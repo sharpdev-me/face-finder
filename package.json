@@ -1,8 +1,8 @@
 {
-  "name": "AnimeFaces",
+  "name": "anime-faces",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "Unlicense",
   "devDependencies": {
     "@types/fluent-ffmpeg": "^2.1.20",
     "@types/node": "^18.11.18",
