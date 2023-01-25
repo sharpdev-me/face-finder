@@ -52,7 +52,7 @@ function run(filePath = "input.mp4", outDir = "out/", framerate: any = 4) {
 
     let image = vc.read();
     let imageIndex = 0;
-    while(!image.empty && imageIndex < 5000) {
+    while(!image.empty) {
         image = vc.read();
     
         if(imageIndex % framerate != 0) {
